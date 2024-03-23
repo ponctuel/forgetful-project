@@ -11,6 +11,4 @@ This browser blocks cookies / trackers
 Can be used to bypass AliExpress first time discount and multiple things so you can buy for really cheap everytime / doing your own things
 
 
-Made in python w/ PyQt5 by [@ponctuel](https://github.com/ponctuel)
-
-### I suggest you to use proxies when you use this browser 
+Made with love in python w/ PyQt5 by [@ponctuel](https://github.com/ponctuel)
