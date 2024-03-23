@@ -10,12 +10,14 @@ When it's your first time using the browser, run `install.bat` and wait for the 
 
 After that, you can just open `run.bat` and everything will work perfectly.
 
-### EXTENDED DESCRIPTIONS
+### Why this browser ?
 
 This browser blocks cookies / trackers
 
 <! -- THE BROWSER DOESN'T SUPPORT EXTENSIONS AND POP-UPS AT THE TIME I AM WRITING THIS -->
 
 Can be used to bypass AliExpress first time discount and multiple things so you can buy for really cheap everytime / doing your own things
+
+NOT ALL THE FEATURES ARE AVAILABLE FOR THE MOMENT / STILL IN BETA VERSION
 
 Made with love in python w/ PyQt5 by [@ponctuel](https://github.com/ponctuel)
