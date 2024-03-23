@@ -6,6 +6,8 @@ The forgetful project is a web browser tring to be the most anonymous as possibl
 
 ## HOW TO USE ?
 
+Download the browser [here](https://github.com/ponctuel/forgetful-project/releases/tag/v0.01)
+
 When it's your first time using the browser, run `install.bat` and wait for the installation to complete
 
 After that, you can just open `run.bat` and everything will work perfectly.
