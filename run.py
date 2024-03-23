@@ -124,7 +124,7 @@ class WebView(QWidget):
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36",
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
-            # Ajout de plus d'user agents pour plus d'anonymat
+            # Add more user-agents if you want
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0",
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0",
@@ -155,7 +155,7 @@ class WebView(QWidget):
                 cookie.setExpirationDate(QDateTime.currentDateTime().addYears(-1))
                 cookie_jar.setCookie(cookie)
 
-        # Effacer les cookies de session
+        # Cookie remover
         self.manager.cookieJar().deleteCookie(QNetworkCookie("SID"))
         self.manager.cookieJar().deleteCookie(QNetworkCookie("SSID"))
         self.manager.cookieJar().deleteCookie(QNetworkCookie("HSID"))
