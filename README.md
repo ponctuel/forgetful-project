@@ -1,3 +1,5 @@
+# NOT AVAILABLE ANYMORE
+
 # The forgetful project
 The forgetful project is a web browser tring to be the most anonymous as possible who disintegrate himself after every use, the browser will forget everything he did in the past (navigation history)
 
